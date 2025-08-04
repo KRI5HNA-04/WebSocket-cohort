@@ -22,6 +22,5 @@ wss.on("connection", function connection(socket) {
 
   console.log("user connected ", ++userCount);
 
-//   socket.send("user connected ", userCount);
   socket.send("Hello! Message From Server!!");
 });
