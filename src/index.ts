@@ -24,4 +24,6 @@ wss.on("connection", function connection(socket) {
 
   socket.send("Hello! Message From Server!!");
   // this is comment
+
+  // Docker, redis, and more incomming
 });
